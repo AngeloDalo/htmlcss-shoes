@@ -32,6 +32,7 @@
 }
 
 .menu-inline li{
+    box-shadow: 0px 4px 2px;
     text-align: center;
     width: 2em;
     margin-right: 3em;
