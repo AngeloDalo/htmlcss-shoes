@@ -17,6 +17,35 @@
      position: relative;
 }
 
+.accesso-rapido{
+    position: fixed;
+    top: 1em;
+    left: 80%;
+    width: 100%;
+    line-height: 2em;
+    z-index: 10;
+}
+
+.menu-inline{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.menu-inline li{
+    text-align: center;
+    width: 2em;
+    margin-right: 3em;
+    display: inline-block;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.accesso-rapido .menu-inline a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
 .testa{
     background-color: red;
 }
