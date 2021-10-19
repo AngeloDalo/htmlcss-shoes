@@ -1,5 +1,55 @@
- * {
+* {
      margin: 0;
      padding: 0;
      box-sizing: border-box;
- }
+}
+
+.contenitore{
+     width: 1000px%;
+}
+
+
+.testa,
+.centro,
+.sotto{
+     width: 100vw;
+     height: 100vh;
+     position: relative;
+}
+
+.testa{
+    background-color: red;
+}
+
+.centro{
+    background-color: green;
+}
+
+.sotto{
+    background-color: yellow;
+}
+
+[class*="contenuto-"]{
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contenuto-sotto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+
+.contenuto-testa h1,
+.contenuto-centro h1{
+    color: yellow;
+    text-align: center;
+}
+
+.contenuto-sotto h1{
+    color: green;
+    text-align: center;
+}
